@@ -1,0 +1,7 @@
+nuget
+.vs
+.vscode
+bin
+obj
+release
+Makefile

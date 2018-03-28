@@ -1,0 +1,16 @@
+[
+    {
+        "firstName": "John",
+        "middleName": "James",
+        "lastName": "Doe",
+        "dateOfBirth": "1990-01-01",
+        "gender": "Male"
+    },
+    {
+        "firstName": "Jane",
+        "middleName": "",
+        "lastName": "Doe",
+        "dateOfBirth": "1990-02-02",
+        "gender": "Female"
+    }
+]
