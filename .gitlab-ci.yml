@@ -15,7 +15,6 @@ Build:
     paths:
       - "*.nupkg"
       - $PROJECT_NAME/release/*
-      - nuget
     untracked: true
   script:
     - dotnet restore --packages nuget
