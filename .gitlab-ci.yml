@@ -15,6 +15,7 @@ Build:
     paths:
       - "*.nupkg"
       - $PROJECT_NAME/release/*
+      - nuget
     untracked: true
   script:
     - dotnet restore --packages nuget
@@ -27,7 +28,7 @@ Test:
   services:
     - mongo
   script:
-    - dotnet test TESTPROJECT_NAME
+    - dotnet test $TESTPROJECT_NAME
 
 # Coverage:
 #   stage: test
