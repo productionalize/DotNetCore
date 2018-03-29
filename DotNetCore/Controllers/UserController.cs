@@ -4,11 +4,11 @@
 
 namespace DotNetCore.Controllers
 {
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
     using Interfaces;
     using Model;
     using Microsoft.AspNetCore.Mvc;
-    using System.Collections.Generic;
-    using System.Threading.Tasks;
 
     [Produces("application/json")]
     [Route("api/[controller]")]

@@ -4,13 +4,13 @@
 
 namespace DotNetCore.Data
 {
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
+    using Context;
     using Interfaces;
     using Model;
-    using DotNetCore.Context;
     using Microsoft.Extensions.Options;
-    using System.Threading.Tasks;
     using MongoDB.Driver;
-    using System.Collections.Generic;
 
     public class UserRepository : IUserRepository
     {

@@ -4,8 +4,8 @@
 
 namespace DotNetCore.Context
 {
-    using Microsoft.Extensions.Options;
     using Model;
+    using Microsoft.Extensions.Options;
     using MongoDB.Driver;
 
     public class UserContext

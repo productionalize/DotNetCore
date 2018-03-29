@@ -4,9 +4,9 @@
 
 namespace DotNetCore
 {
-    using DotNetCore.Data;
-    using DotNetCore.Interfaces;
-    using DotNetCore.Model;
+    using Data;
+    using Interfaces;
+    using Model;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Configuration;
