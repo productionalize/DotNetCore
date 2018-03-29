@@ -32,7 +32,7 @@ namespace DotNetCore
                     .AllowCredentials());
             });
 
-            services.AddMvc();
+            services.AddMvcCore().AddJsonFormatters();
 
             services.Configure<Settings>(options =>
             {

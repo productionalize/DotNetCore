@@ -17,6 +17,8 @@ namespace DotNetCore
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
+                // Needed for a bug in Kestrel
+                .UseUrls("http://0.0.0.0:80")
                 .Build();
     }
 }

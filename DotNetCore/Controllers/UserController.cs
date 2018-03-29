@@ -10,7 +10,6 @@ namespace DotNetCore.Controllers
     using Model;
     using Microsoft.AspNetCore.Mvc;
 
-    [Produces("application/json")]
     [Route("api/[controller]")]
     public class UserController : Controller
     {
