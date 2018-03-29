@@ -20,7 +20,7 @@ Build:
   script:
     - dotnet restore --packages nuget
     - dotnet build $PROJECT_NAME
-    - dotnet publish -c release -o release $PROJECT_NAME
+    - dotnet publish -c release -o release $PROJECT_NAME -r alpine.3.6-x64
   stage: build
 
 Test:
