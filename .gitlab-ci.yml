@@ -33,7 +33,7 @@ Test:
 # Coverage:
 #   stage: test
 #   script:
-#     - make coverage
+#     - dotnet test /p:CoverletOutputFormat=opencover
 
 Deploy:
   image: 'docker:latest'
